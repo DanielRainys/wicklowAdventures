@@ -122,13 +122,18 @@ Header
                                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <select class="form-control" id="subject">
+                                    <option>Booking</option>
+                                    <option>Inquiry</option>
+                                    <option>Careers</option>
+                                    <option>Other</option>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             </div>
+                            <div id="error"></div>
                             <button type="button" class="btn btn-default" onclick="setName()">Submit</button>
-                            <button type="button" class="btn btn-default">Reset</button>
+                            <button type="button" class="btn btn-default" onclick="reset()">Reset</button>
                         </form>
                     </div>
                 </div>
@@ -170,7 +175,7 @@ Header
 
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong>Daniel Rainys</strong>. All Rights Reserved
+            &copy; Copyright <strong>Daniel Rainys</strong>. All Rights Reserved <p id="date"></p>
         </div>
     </div>
 </footer><!-- #footer -->
