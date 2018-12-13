@@ -1,0 +1,47 @@
+A home page (index.html) *
+A contact page (contact.html)*
+A Thank you Page (thanks.html)*
+A Services page (Services.html)*
+An About page (about.html)*
+
+Components Common to all pages.
+All pages should have the following
+• A Title that displays the name of the page*
+• A link to a CSS stylesheet used to provide styling requirement.*
+• A navigation menu that allows the users to move between all pages on the website.*
+• A page header that displays the name of the organisation and a logo.*
+• A page footer that displays a copyright message and the current year with JavaScript in a small font.
+
+5 files exist - HTML 5*
+CSS file exists in site subfolder 1*
+JavaScript files exist in site subfolder 1*
+Image files in site subfolder 1*
+All HTML files link to CSS files 5*
+
+All HTML files link to JavaScript file 5
+
+All HTML files have appropriate title using the <title> element 5*
+All HTML files have header formatted with CSS 5*
+All HTML files have footer formatted with CSS 5*
+
+Footer uses JavaScript to show current year by checking current date 1
+
+All images are located using either embedded or external CSS 5*
+Major headings on all pages are formatted using CSS 5*
+All pages have similar “look and feel” achieved using CSS 10*
+All Pages have a navigation system/menu that works on all pages 10*
+Navigation system/menu system formatted with CSS 5*
+
+Contact Form validates that all fields are filed 5*
+Contact Form has <select> list of email subject titles 2
+Contact Form has working Submit and Reset buttons 2
+Contact Form runs JavaScript code to insert user name in cookie 2
+Thank you form – locates and reads cookie 2
+
+CSS rules exist to format headings 2*
+CSS rules exist to format page header 2*
+CSS rules exist to format page footer 2*
+
+CSS rules exist to format a table 2
+
+CSS rules exist to format Navigation menu 2*
